@@ -3,6 +3,9 @@ PATH_STORAGE := storage:aleph2image
 upload:
 	neuro cp -ru . -T $(PATH_STORAGE)
 
+download:
+	neuro cp -ru $(PATH_STORAGE) -T .
+
 run:
 	neuro run \
 		-v $(PATH_STORAGE):/project:rw \
@@ -22,4 +25,4 @@ run:
 				--MappingKernelManager.cull_idle_timeout=7200 \
 		'
 
-.PHONY: upload run
+.PHONY: upload download run
