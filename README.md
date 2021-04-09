@@ -1,5 +1,5 @@
 # mlops-aleph2image
-Test jupyter running `Aleph2Image_(Delta)_CLIP+DALL_E_decoder` for @pramax.
+Test jupyter running `Aleph2Image_(Delta)_CLIP+DALL_E_decoder` for Max Prasolov.
 
 Original notebook: https://colab.research.google.com/drive/1oA1fZP7N1uPBxwbGIvOEXbTsq2ORa9vb
 
